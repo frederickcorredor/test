@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Test</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="banner">
+            <img src="Diseño sin título (58).png" alt="">
+        </div>
+        <img src="D1 (2).png" alt="" class="dan">
+        <section id="mostrar1">
+            <H1>Descubre en menos de un minuto si puede padecer de algun grado de eyaculacion precoz</H1>
+            <p>
+                Este cuestionario está basado en el índice internacional urológico (PEDT). <br><br>
+                El test consta de 5 preguntas con varias respuestas posibles. 
+                Selecciona la que mejor describa tu situación según tu experiencia 
+                sexual en los últimos 6 meses.
+            </p>
+            <button onclick="m1()">Comenzar</button>
+        </section>
+
+        <section id="mostrar2">
+            <h3>¿Cómo calificas su dificultad para retrasar la Eyaculación Precoz?</h3>
+            
+                <input type="checkbox" name="opciona0" id=""> <label for="opciona0">Ninguna dificultad</label> <br>
+                <input type="checkbox" name="opciona1" id=""> <label for="opciona1">Poca dificultad</label> <br>
+                <input type="checkbox" name="opciona2" id=""> <label for="opciona2">Moderada dificultad</label> <br>
+                <input type="checkbox" name="opciona3" id=""> <label for="opciona3">Mucha dificultad</label> <br>
+                <input type="checkbox" name="opciona2" id=""> <label for="opciona4">Extremadamente difícil</label> <br>
+                <button onclick="m2()">Continuar</button>
+
+        </section>
+
+        <section id="mostrar3">
+            <h3>¿Eyacula antes de los que deseas?</h3>
+
+                <input type="checkbox" name="opcionb0" id=""> <label for="opcionb0">Casi nunca o nunca</label> <br>
+                <input type="checkbox" name="opcionb1" id=""> <label for="opcionb1">Menos de la mitad de las veces</label> <br>
+                <input type="checkbox" name="opcionb2" id=""> <label for="opcionb2">La mitad de las veces</label> <br>
+                <input type="checkbox" name="opcionb3" id=""> <label for="opcionb3">Más de la mitad de las veces</label> <br>
+                <input type="checkbox" name="opcionb2" id=""> <label for="opcionb4">Casi siempre o siempre</label> <br>
+                <button onclick="m3()">Continuar</button>
+
+        </section>
+
+        <section id="mostrar4">
+            <h3>¿Eyacula con muy poca estimulación?</h3>
+
+                <input type="checkbox" name="opcionc0" id=""> <label for="opcionc0">Casi nunca o nunca</label> <br>
+                <input type="checkbox" name="opcionc1" id=""> <label for="opcionc1">Menos de la mitad de las veces </label> <br>
+                <input type="checkbox" name="opcionc2" id=""> <label for="opcionc2">La mitad de las veces </label> <br>
+                <input type="checkbox" name="opcionc3" id=""> <label for="opcionc3">Más de la mitad de las veces </label> <br>
+                <input type="checkbox" name="opcionc2" id=""> <label for="opcionc4">Casi siempre o siempre</label> <br>
+                <button onclick="m4()">Continuar</button>
+
+        </section>
+
+        <section id="mostrar5">
+            <h3>¿Se ha sentido frustrado por eyacular antes de lo deseado?</h3>
+
+                <input type="checkbox" name="opciond0" id=""> <label for="opciond0">Casi nunca o nunca</label> <br>
+                <input type="checkbox" name="opciond1" id=""> <label for="opciond1">Menos de la mitad de las veces </label> <br>
+                <input type="checkbox" name="opciond2" id=""> <label for="opciond2">La mitad de las veces </label> <br>
+                <input type="checkbox" name="opciond3" id=""> <label for="opciond3">Más de la mitad de las veces </label> <br>
+                <input type="checkbox" name="opciond2" id=""> <label for="opciond4">Casi siempre o siempre</label> <br>
+                <button onclick="m5()">Continuar</button>
+
+        </section>
+
+        <section id="mostrar6">
+            <h3>Muy bien ya nos encontramos procesando los resultados</h3>
+            <p>
+                A continuacion te pediremos que ingreses tus datos para enviarte los resultados
+            </p>
+
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" required> <br>
+                <label for="telefono">Telefono</label>
+                <input type="tel" name="telefono" id="telefono" required> <br>
+                <label for="correo">E Mail</label>
+                <input type="email" name="correo" id="correo"required> <br>
+                <button onclick="m6()">Continuar</button>
+
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
